@@ -33,9 +33,9 @@
       "target": "plugin::users-permissions.user",
       "inversedBy": "profile"
     },
-    "post": {
+    "posts": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::post.post",
       "mappedBy": "profile"
     }
